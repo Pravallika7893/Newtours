@@ -38,46 +38,41 @@ public class Baseclass {
 	NTPages Nt;
 	
 	@BeforeClass(groups= {"Sanity","Regression","Master","Datadriven"})
-	@Parameters({"os","browser"})
-	public void setup(String os,String br) throws IOException  {
-		
-		//lodding config.properties file
-		FileReader file = new FileReader("./src//test//resources//config.properties");
-		p=new Properties();
-		p.load(file);
-		
-		
-		
-		logger = LogManager.getLogger(this.getClass());
-		
-		switch(br.toLowerCase()) {
-		case "edge" :driver = new EdgeDriver(); break;
-		case "chrome" :driver = new ChromeDriver();break;
-		case "firefox" :driver = new FirefoxDriver();break;
-		default : System.out.println("Invalid browser name...");return;
-		
-		}
-		
-		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-		
-		//driver.get("https://demo.guru99.com/test/newtours/");
-		driver.get(p.getProperty("appurl"));  //reading url from properties file
-		driver.manage().window().maximize();
-		Np = new NewtourRegistrationPage(driver);
-		Nt = new NTPages(driver);
-		ts = (TakesScreenshot)driver;
+@Parameters({"os","browser"})
+public void setup(String os,String br) throws IOException  {
+	
+	//lodding config.properties file
+	FileReader file = new FileReader("./src//test//resources//config.properties");
+	p=new Properties();
+	p.load(file);
+
+logger = LogManager.getLogger(this.getClass());
+
+	switch(br.toLowerCase()) {
+	case "edge" :driver = new EdgeDriver(); break;
+	case "chrome" :driver = new ChromeDriver();break;
+	case "firefox" :driver = new FirefoxDriver();break;
+	default : System.out.println("Invalid browser name...");return;
 	
 	}
+
+	driver.manage().deleteAllCookies();
+	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 	
-	@AfterClass(groups= {"Sanity","Regression","Master","Datadriven"})
-	   public void tearDown() {
+//driver.get("https://demo.guru99.com/test/newtours/");
+    driver.get(p.getProperty("appurl"));  //reading url from properties file
+	driver.manage().window().maximize();
+	Np = new NewtourRegistrationPage(driver);
+	Nt = new NTPages(driver);
+	ts = (TakesScreenshot)driver;
+
+}
+
+@AfterClass(groups= {"Sanity","Regression","Master","Datadriven"})
+   public void tearDown() {
 		driver.close();
 	}
 
-	
-	
-	
     public String randomString() {
 		
 		String generatedstring = RandomStringUtils.randomAlphabetic(5);
@@ -100,11 +95,11 @@ public class Baseclass {
    public String captureScreen(String tname) throws IOException{
 	   
 	   String timestamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
-	   
-	   TakesScreenshot ts = (TakesScreenshot)driver;
-		File sourcefile = ts.getScreenshotAs(OutputType.FILE);
-		
-		String targetfilePath =System.getProperty("user.dir")+"\\Screenshots\\" +tname +"_"+ timestamp+".png";
+   
+   TakesScreenshot ts = (TakesScreenshot)driver;
+	File sourcefile = ts.getScreenshotAs(OutputType.FILE);
+	
+	String targetfilePath =System.getProperty("user.dir")+"\\Screenshots\\" +tname +"_"+ timestamp+".png";
 		File targetFile = new File(targetfilePath);
 		
 		sourcefile.renameTo(targetFile);
