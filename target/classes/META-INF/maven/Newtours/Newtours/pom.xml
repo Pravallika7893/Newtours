@@ -21,7 +21,7 @@
 		          <configuration>
 					  <suiteXmlFiles>
 						  <suiteXmlFile>testng.xml</suiteXmlFile>
-						  <suiteXmlFile>groups.xml</suiteXmlFile>
+						<!--   <suiteXmlFile>groups.xml</suiteXmlFile>-->
 					  </suiteXmlFiles>
 				  </configuration>
        		 </plugin>
