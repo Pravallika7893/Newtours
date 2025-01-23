@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-21T15:09:29 IST" name="Master Suite" finished-at="2025-01-21T15:10:57 IST" duration-ms="88511">
+  <suite started-at="2025-01-23T10:03:57 IST" name="Master Suite" finished-at="2025-01-23T10:06:30 IST" duration-ms="152820">
     <groups>
       <group name="Master">
-        <method signature="TC01_Registration.verify_account_registration()[pri:0, instance:com.qa.Testscript.TC01_Registration@436bc36]" name="verify_account_registration" class="com.qa.Testscript.TC01_Registration"/>
-        <method signature="TC03_Flight.flightlink()[pri:0, instance:com.qa.Testscript.TC03_Flight@550a1967]" name="flightlink" class="com.qa.Testscript.TC03_Flight"/>
-        <method signature="TC04_LoginDDT.logintest()[pri:0, instance:com.qa.Testscript.TC04_LoginDDT@2a640157]" name="logintest" class="com.qa.Testscript.TC04_LoginDDT"/>
-        <method signature="TC07_Preferences.preferences()[pri:0, instance:com.qa.Testscript.TC07_Preferences@5d8bafa9]" name="preferences" class="com.qa.Testscript.TC07_Preferences"/>
-        <method signature="TC06_ArrDep.Departurelink()[pri:1, instance:com.qa.Testscript.TC06_ArrDep@584f54e6]" name="Departurelink" class="com.qa.Testscript.TC06_ArrDep"/>
-        <method signature="TC06_ArrDep.Arriving()[pri:2, instance:com.qa.Testscript.TC06_ArrDep@584f54e6]" name="Arriving" class="com.qa.Testscript.TC06_ArrDep"/>
+        <method signature="TC01_Registration.verify_account_registration()[pri:0, instance:com.qa.Testscript.TC01_Registration@5443d039]" name="verify_account_registration" class="com.qa.Testscript.TC01_Registration"/>
+        <method signature="TC03_Flight.flightlink()[pri:0, instance:com.qa.Testscript.TC03_Flight@386f0da3]" name="flightlink" class="com.qa.Testscript.TC03_Flight"/>
+        <method signature="TC04_LoginDDT.logintest()[pri:0, instance:com.qa.Testscript.TC04_LoginDDT@39655d3e]" name="logintest" class="com.qa.Testscript.TC04_LoginDDT"/>
+        <method signature="TC07_Preferences.preferences()[pri:0, instance:com.qa.Testscript.TC07_Preferences@3d1848cc]" name="preferences" class="com.qa.Testscript.TC07_Preferences"/>
+        <method signature="TC06_ArrDep.Departurelink()[pri:1, instance:com.qa.Testscript.TC06_ArrDep@34f22f9d]" name="Departurelink" class="com.qa.Testscript.TC06_ArrDep"/>
+        <method signature="TC06_ArrDep.Arriving()[pri:2, instance:com.qa.Testscript.TC06_ArrDep@34f22f9d]" name="Arriving" class="com.qa.Testscript.TC06_ArrDep"/>
       </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="TC04_LoginDDT.logintest()[pri:0, instance:com.qa.Testscript.TC04_LoginDDT@2a640157]" name="logintest" class="com.qa.Testscript.TC04_LoginDDT"/>
+        <method signature="TC04_LoginDDT.logintest()[pri:0, instance:com.qa.Testscript.TC04_LoginDDT@39655d3e]" name="logintest" class="com.qa.Testscript.TC04_LoginDDT"/>
       </group> <!-- Sanity -->
       <group name="regression">
-        <method signature="TC06_ArrDep.Departurelink()[pri:1, instance:com.qa.Testscript.TC06_ArrDep@584f54e6]" name="Departurelink" class="com.qa.Testscript.TC06_ArrDep"/>
-        <method signature="TC06_ArrDep.Arriving()[pri:2, instance:com.qa.Testscript.TC06_ArrDep@584f54e6]" name="Arriving" class="com.qa.Testscript.TC06_ArrDep"/>
+        <method signature="TC06_ArrDep.Departurelink()[pri:1, instance:com.qa.Testscript.TC06_ArrDep@34f22f9d]" name="Departurelink" class="com.qa.Testscript.TC06_ArrDep"/>
+        <method signature="TC06_ArrDep.Arriving()[pri:2, instance:com.qa.Testscript.TC06_ArrDep@34f22f9d]" name="Arriving" class="com.qa.Testscript.TC06_ArrDep"/>
       </group> <!-- regression -->
       <group name="Regression">
-        <method signature="TC01_Registration.verify_account_registration()[pri:0, instance:com.qa.Testscript.TC01_Registration@436bc36]" name="verify_account_registration" class="com.qa.Testscript.TC01_Registration"/>
-        <method signature="TC03_Flight.flightlink()[pri:0, instance:com.qa.Testscript.TC03_Flight@550a1967]" name="flightlink" class="com.qa.Testscript.TC03_Flight"/>
-        <method signature="TC07_Preferences.preferences()[pri:0, instance:com.qa.Testscript.TC07_Preferences@5d8bafa9]" name="preferences" class="com.qa.Testscript.TC07_Preferences"/>
+        <method signature="TC01_Registration.verify_account_registration()[pri:0, instance:com.qa.Testscript.TC01_Registration@5443d039]" name="verify_account_registration" class="com.qa.Testscript.TC01_Registration"/>
+        <method signature="TC03_Flight.flightlink()[pri:0, instance:com.qa.Testscript.TC03_Flight@386f0da3]" name="flightlink" class="com.qa.Testscript.TC03_Flight"/>
+        <method signature="TC07_Preferences.preferences()[pri:0, instance:com.qa.Testscript.TC07_Preferences@3d1848cc]" name="preferences" class="com.qa.Testscript.TC07_Preferences"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2025-01-21T15:09:29 IST" name="Test" finished-at="2025-01-21T15:10:57 IST" duration-ms="88511">
+    <test started-at="2025-01-23T10:03:57 IST" name="Test" finished-at="2025-01-23T10:06:30 IST" duration-ms="152820">
       <class name="com.qa.Testscript.TC04_LoginDDT">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.qa.Testscript.TC04_LoginDDT@2a640157]" started-at="2025-01-21T15:10:17 IST" name="setup" finished-at="2025-01-21T15:10:24 IST" duration-ms="7048" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.qa.Testscript.TC04_LoginDDT@39655d3e]" started-at="2025-01-23T10:04:33 IST" name="setup" finished-at="2025-01-23T10:04:37 IST" duration-ms="3914" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -36,24 +36,24 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logintest()[pri:0, instance:com.qa.Testscript.TC04_LoginDDT@2a640157]" started-at="2025-01-21T15:10:24 IST" name="logintest" finished-at="2025-01-21T15:10:32 IST" duration-ms="7901" status="PASS">
+        <test-method signature="logintest()[pri:0, instance:com.qa.Testscript.TC04_LoginDDT@39655d3e]" started-at="2025-01-23T10:04:37 IST" name="logintest" finished-at="2025-01-23T10:04:43 IST" duration-ms="6471" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.Testscript.TC04_LoginDDT@2a640157]" started-at="2025-01-21T15:10:32 IST" name="tearDown" finished-at="2025-01-21T15:10:32 IST" duration-ms="220" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.Testscript.TC04_LoginDDT@39655d3e]" started-at="2025-01-23T10:04:43 IST" name="tearDown" finished-at="2025-01-23T10:04:43 IST" duration-ms="123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.Testscript.TC04_LoginDDT -->
       <class name="com.qa.Testscript.TC06_ArrDep">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.qa.Testscript.TC06_ArrDep@584f54e6]" started-at="2025-01-21T15:10:32 IST" name="setup" finished-at="2025-01-21T15:10:39 IST" duration-ms="6364" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.qa.Testscript.TC06_ArrDep@34f22f9d]" started-at="2025-01-23T10:04:43 IST" name="setup" finished-at="2025-01-23T10:05:15 IST" duration-ms="31641" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -62,28 +62,28 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Departurelink()[pri:1, instance:com.qa.Testscript.TC06_ArrDep@584f54e6]" started-at="2025-01-21T15:10:39 IST" name="Departurelink" finished-at="2025-01-21T15:10:41 IST" duration-ms="2380" status="PASS">
+        <test-method signature="Departurelink()[pri:1, instance:com.qa.Testscript.TC06_ArrDep@34f22f9d]" started-at="2025-01-23T10:05:15 IST" name="Departurelink" finished-at="2025-01-23T10:05:34 IST" duration-ms="19321" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Departurelink -->
-        <test-method signature="Arriving()[pri:2, instance:com.qa.Testscript.TC06_ArrDep@584f54e6]" started-at="2025-01-21T15:10:41 IST" name="Arriving" finished-at="2025-01-21T15:10:45 IST" duration-ms="3331" status="PASS">
+        <test-method signature="Arriving()[pri:2, instance:com.qa.Testscript.TC06_ArrDep@34f22f9d]" started-at="2025-01-23T10:05:34 IST" name="Arriving" finished-at="2025-01-23T10:05:39 IST" duration-ms="4670" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Arriving -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.Testscript.TC06_ArrDep@584f54e6]" started-at="2025-01-21T15:10:45 IST" name="tearDown" finished-at="2025-01-21T15:10:45 IST" duration-ms="181" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.Testscript.TC06_ArrDep@34f22f9d]" started-at="2025-01-23T10:05:39 IST" name="tearDown" finished-at="2025-01-23T10:05:39 IST" duration-ms="112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.Testscript.TC06_ArrDep -->
       <class name="com.qa.Testscript.TC07_Preferences">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.qa.Testscript.TC07_Preferences@5d8bafa9]" started-at="2025-01-21T15:10:45 IST" name="setup" finished-at="2025-01-21T15:10:52 IST" duration-ms="7472" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.qa.Testscript.TC07_Preferences@3d1848cc]" started-at="2025-01-23T10:05:39 IST" name="setup" finished-at="2025-01-23T10:06:16 IST" duration-ms="36874" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -92,24 +92,24 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="preferences()[pri:0, instance:com.qa.Testscript.TC07_Preferences@5d8bafa9]" started-at="2025-01-21T15:10:52 IST" name="preferences" finished-at="2025-01-21T15:10:57 IST" duration-ms="4735" status="PASS">
+        <test-method signature="preferences()[pri:0, instance:com.qa.Testscript.TC07_Preferences@3d1848cc]" started-at="2025-01-23T10:06:16 IST" name="preferences" finished-at="2025-01-23T10:06:30 IST" duration-ms="14205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preferences -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.Testscript.TC07_Preferences@5d8bafa9]" started-at="2025-01-21T15:10:57 IST" name="tearDown" finished-at="2025-01-21T15:10:57 IST" duration-ms="132" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.Testscript.TC07_Preferences@3d1848cc]" started-at="2025-01-23T10:06:30 IST" name="tearDown" finished-at="2025-01-23T10:06:30 IST" duration-ms="109" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.Testscript.TC07_Preferences -->
       <class name="com.qa.Testscript.TC01_Registration">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.qa.Testscript.TC01_Registration@436bc36]" started-at="2025-01-21T15:09:29 IST" name="setup" finished-at="2025-01-21T15:09:38 IST" duration-ms="8850" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.qa.Testscript.TC01_Registration@5443d039]" started-at="2025-01-23T10:03:58 IST" name="setup" finished-at="2025-01-23T10:04:19 IST" duration-ms="20844" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -118,24 +118,24 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_account_registration()[pri:0, instance:com.qa.Testscript.TC01_Registration@436bc36]" started-at="2025-01-21T15:09:38 IST" name="verify_account_registration" finished-at="2025-01-21T15:09:54 IST" duration-ms="16111" status="PASS">
+        <test-method signature="verify_account_registration()[pri:0, instance:com.qa.Testscript.TC01_Registration@5443d039]" started-at="2025-01-23T10:04:19 IST" name="verify_account_registration" finished-at="2025-01-23T10:04:27 IST" duration-ms="8249" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_account_registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.Testscript.TC01_Registration@436bc36]" started-at="2025-01-21T15:09:54 IST" name="tearDown" finished-at="2025-01-21T15:09:54 IST" duration-ms="241" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.Testscript.TC01_Registration@5443d039]" started-at="2025-01-23T10:04:27 IST" name="tearDown" finished-at="2025-01-23T10:04:27 IST" duration-ms="128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.Testscript.TC01_Registration -->
       <class name="com.qa.Testscript.TC03_Flight">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.qa.Testscript.TC03_Flight@550a1967]" started-at="2025-01-21T15:09:54 IST" name="setup" finished-at="2025-01-21T15:10:14 IST" duration-ms="19589" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.qa.Testscript.TC03_Flight@386f0da3]" started-at="2025-01-23T10:04:27 IST" name="setup" finished-at="2025-01-23T10:04:32 IST" duration-ms="4779" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -144,18 +144,18 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="flightlink()[pri:0, instance:com.qa.Testscript.TC03_Flight@550a1967]" started-at="2025-01-21T15:10:14 IST" name="flightlink" finished-at="2025-01-21T15:10:17 IST" duration-ms="3531" status="PASS">
+        <test-method signature="flightlink()[pri:0, instance:com.qa.Testscript.TC03_Flight@386f0da3]" started-at="2025-01-23T10:04:32 IST" name="flightlink" finished-at="2025-01-23T10:04:33 IST" duration-ms="1014" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flightlink -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.Testscript.TC03_Flight@550a1967]" started-at="2025-01-21T15:10:17 IST" name="tearDown" finished-at="2025-01-21T15:10:17 IST" duration-ms="134" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.Testscript.TC03_Flight@386f0da3]" started-at="2025-01-23T10:04:33 IST" name="tearDown" finished-at="2025-01-23T10:04:33 IST" duration-ms="98" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

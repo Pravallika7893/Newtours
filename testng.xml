@@ -20,7 +20,7 @@
 
   <test thread-count="5" name="Test">
   <parameter name="os" value="windows"></parameter>
-  <parameter name="browser" value="edge"></parameter>
+  <parameter name="browser" value="chrome"></parameter>
     <classes>
       <class name="com.qa.Testscript.TC01_Registration"/>
      <class name="com.qa.Testscript.TC03_Flight"/>
